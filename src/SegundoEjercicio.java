@@ -1,10 +1,29 @@
 public class SegundoEjercicio {
     // 1. Crea dos atributos de tipo double sin indicar su ámbito de visibilidad.
     // deben llamarse "a" y "b"
-
+    double a;
+    double b;
     // 2. Crea un constructor para esta clase que inicialice los atributos "a" y "b"
 
+    public SegundoEjercicio(double a, double b) {
+        this.a = a;
+        this.b = b;
+    }
+
+
     // 3. Crea otro constructor para esta clase que solamente inicialice el atributo "b"
+
+    public SegundoEjercicio(double b) {
+        this.b = b;
+    }
+
+    @Override
+    public String toString() {
+        return "SegundoEjercicio{" +
+                "a=" + a +
+                ", b=" + b +
+                '}';
+    }
 
     // 4. En la clase Main, crea un menú con tres opciones:
     //      1.- Añadir 10 objetos con todos los atributos aleatorios y mostrarlos
