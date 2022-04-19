@@ -1,8 +1,8 @@
 public class PrimerEjercicio {
     // 1. Crea dos atributos de tipo int sin indicar su ámbito de visibilidad.
     // deben llamarse "a" y "b"
-    int a;
-    int b;
+    private int a;
+    private int b;
     // 3. Crea un constructor para esta clase que inicialice los atributos "a" y "b"
     public PrimerEjercicio(int a, int b) {
         this.a = a;
