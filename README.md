@@ -13,3 +13,6 @@ a ellos desde dentro de la misma clase.
 Al cambiar la visibilidad de los atributos a **protected** estos son
 accesibles a las clases hijas y a las que pertenezcan al mismo paquete.
 
+# Cuarta prueba
+Al cambiar la visibilidad de los atributos a **public** estos
+son accesibles desde cualquier clase.
