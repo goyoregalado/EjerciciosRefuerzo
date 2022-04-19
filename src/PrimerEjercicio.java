@@ -13,4 +13,10 @@ public class PrimerEjercicio {
 
     // 4. En la clase Main, crea una instancia de la clase "PrimerEjercicioB" y ejecuta
     // su método "ejecutar".
+
+    // 5. Crea un archivo README.md dentro de este repositorio y explica qué ha pasado.
+
+
+    //6. Cambia el ámbito de visibilidad a public, private y protected y comprueba qué pasa
+    // en cada caso. Documéntalo en el archivo README.md
 }
